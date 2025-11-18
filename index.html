@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momoe Nitani Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ① ヘッダー -->
+  <header>
+    <h1>Momoe Nitani</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ② メインビジュアル -->
+  <section class="main-visual">
+    <h2>伝わるデザインで、あなたのブランドを彩ります。</h2>
+    <p>SNSデザイン・Webデザイン学習中</p>
+     <a href="#works" class="main-btn">作品を見る</a>
+  </section>
+
+  <!-- ③ About -->
+  <section id="about">
+    <h2>About</h2>
+    <div class="about-container">
+      <!-- ここにプロフィール画像を入れる -->
+      <img src="images/profile.png" alt="Momoe Nitaniの写真" />
+      <div class="about-text">
+        <h3>二谷 桃江（Momoe Nitani）</h3>
+        <p>
+          SNS投稿デザインを中心に、ブランドの世界観を表現するデザインを制作しています。<br>
+          HTML/CSSを学習中で、Webページとしての見やすさも意識しています。
+        </p>
+        <ul>
+          <li><strong>使用ツール：</strong> Canva / VSCode</li>
+          <li><strong>スキル：</strong> SNSデザイン・バナー制作・HTML/CSS（学習中）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<!-- ④ Works -->
+<section id="works">
+
+  <h2>Works</h2>
+  <p class="works-intro">※以下は学習・練習として制作したデザイン作品です。</p>
+
+  <!-- 上段：正方形3枚 -->
+     <div class="gallery">
+  <div class="work-item square">
+    <img src="images/work1.png" alt="数量限定プレゼントキャンペーン告知バナー">
+    <h3>数量限定プレゼントキャンペーン告知バナー</h3>
+    <p>期間限定プレゼント企画を想定した告知バナー。柔らかい色味と写真を組み合わせ、上品さと特別感を演出しています。</p>
+  </div>
+
+  <div class="work-item square">
+    <img src="images/work2.png" alt="ハロウィンイベントのポップ告知デザイン">
+    <h3>ハロウィンイベント ポップ告知デザイン</h3>
+    <p>親しみやすさを重視したポップテイストのイベント告知。季節感を伝えつつ、子ども向けイベントにも使える優しい色合いです。</p>
+  </div>
+
+  <div class="work-item square">
+    <img src="images/work3.png" alt="SNSマーケター募集の採用向けバナー">
+    <h3>SNSマーケター募集バナー（採用向け）</h3>
+    <p>採用告知を想定したデザイン。人物写真と落ち着いたトーンで、信頼感と親しみやすさのバランスを意識しました。</p>
+  </div>
+
+  <!-- 下段：縦長3枚 -->
+  <div class="work-item tall">
+    <img src="images/work4.png" alt="飲食店向けの新メニュー告知バナー（たまごサンド）">
+    <h3>飲食店向け 新メニュー告知バナー</h3>
+    <p>商品写真を大きく見せるレイアウトで新メニューを紹介。清潔感のある配色と余白で訴求力を高めています。</p>
+  </div>
+
+  <div class="work-item tall">
+    <img src="images/work5.png" alt="カフェ風のSNS投稿デザイン">
+    <h3>カフェ投稿用 SNSフィードデザイン</h3>
+    <p>カフェのSNS投稿を想定した練習作品。写真を主役に、背景ぼかしで世界観を統一しています。</p>
+  </div>
+
+  <div class="work-item tall">
+    <img src="images/work6.png" alt="子ども英会話スクールの生徒募集チラシデザイン">
+    <h3>子ども英会話スクール 生徒募集チラシ</h3>
+    <p>教育系チラシを想定。情報量が多い中でも読みやすさを優先し、色分けと余白で視線誘導を工夫しました。</p>
+  </div>
+  </div>
+</section>
+
+
+
+
+      <!-- 追加したい分だけ繰り返しOK -->
+    </div>
+  </section>
+
+  <!-- ⑤ Contact -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>ご依頼・ご相談は下記よりご連絡ください。</p>
+
+  <a href="mailto:m.nitani.web@gmail.com" class="contact-btn">
+    <!-- ✉️ メールアイコン -->
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         viewBox="0 0 24 24" width="20" height="20" 
+         fill="currentColor" class="mail-icon">
+      <path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 
+               2 0 0 1-2 2H4a2 2 0 0 1-2-2V4zm2 0v.01L12 
+               11l8-6.99V4H4zm0 16h16V7.24l-7.38 
+               5.78a1 1 0 0 1-1.24 0L4 7.24V20z"/>
+    </svg>
+    メールはこちら
+  </a>
+
+  <!-- Xボタン -->
+  <ul class="contact-sns">
+    <li>
+      <a href="https://x.com/@m_n_web" class="contact-btn" target="_blank">
+        X（旧Twitter）
+      </a>
+    </li>
+  </ul>
+</section>
+
+
+  <!-- ⑥ フッター -->
+  <footer>
+    <p>© 2025 Momoe Nitani | Designed & Coded by Momoe Nitani</p>
+  </footer>
+
+</body>
+</html>
