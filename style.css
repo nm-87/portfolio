@@ -538,3 +538,17 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+#works h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.works-intro {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 0.95rem;
+  color: #666;
+}
